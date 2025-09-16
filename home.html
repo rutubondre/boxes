@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-parent {
+            background-color:red;
+            display: flex;
+            flex-direction: column;
+            height: 1400px;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 300px;
+        }
+         .card {
+            width: 250px;
+            background-color: #ffcccc;
+            border: 5px double black;
+            height: 250px;
+            border-radius: 10px;
+        }
+         .img {
+            width: 100px;
+            margin-left: 60px;
+            margin-right: 60px;
+            height: 150px;
+            padding-top: 10px;
+        }
+        .card-title{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-parent">
+ <div class="card">
+            <img src="./img/lily.png" class="img">
+            <h1 class="card-title">lily</h1>
+        </div>
+
+        <div class="card">
+            <img src="./img/rose.png" class="img">
+            <h1 class="card-title">Rose</h1>
+        </div>
+
+ <div class="card">
+            <img src="./img/jasmine.png" class="img">
+            <h1 class="card-title">jasmine</h1>
+        </div>
+</div>
+    </div>
+</body>
+</html>
